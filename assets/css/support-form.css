@@ -1,0 +1,25 @@
+/* .form-background{
+
+    ackground:gre;
+    opacity: 0.5;
+    color: black;
+} */
+
+.support-button{
+    background: #a4c639;
+    color:white;
+    
+    
+    padding:3px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    
+}
+
+.support-button:hover{
+    border-color: #ff4d4d;
+    color:white;
+    background:#ff4d4d;
+
+}
