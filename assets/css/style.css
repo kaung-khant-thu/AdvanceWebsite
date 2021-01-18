@@ -25,38 +25,22 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #a4c639;
-	color: white;
-	font-size: 13px;
-	text-transform: uppercase;
-	padding: 12px 30px;
-	font-weight: 700;
-	border-radius: 30px;
-	display: inline-block;
-	transition: all 0.3s;
+display: inline-block;
+width: 150px;
+line-height: 38px;
+border: 0px;
+border-radius: 1.5rem;
+background: #a4c639;
+color: white;
+font-weight: 500;	
+text-align: center;
+cursor: pointer;
+transition: all 0.2s;
+text-decoration: none;
 }
 
 a.filled-button:hover {
-	background-color: #fff;
-	color: #a4c639;
-}
-
-a.border-button {
-	background-color: transparent;
-	color: #fff;
-	border: 2px solid #fff;
-	font-size: 13px;
-	text-transform: uppercase;
-	font-weight: 700;
-	padding: 10px 28px;
-	border-radius: 30px;
-	display: inline-block;
-	transition: all 0.3s;
-}
-
-a.border-button:hover {
-	background-color: #fff;
-	color: #a4c639;
+	background-color: #ff4d4d;
 }
 
 .section-heading {
@@ -725,11 +709,11 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/g.jpeg);
+	background-image: url(../images/o5.jpeg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 220px 0px 150px 0px;
+	padding: 200px 0px 100px 0px;
 	color: #fff;
 	position: relative;
 }
@@ -753,7 +737,7 @@ footer .contact-form button.filled-button:hover {
 	text-transform: capitalize;
 	font-weight: 700;
 	letter-spacing: 2px;
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 }
 
 .page-heading span {
@@ -1005,7 +989,7 @@ h3 {
 
 /*Count Area Starts*/
 .count {
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 	text-align: center;
 	color: white;
@@ -1041,8 +1025,8 @@ h3 {
 
 /*home Area Starts*/
 .article_blog {
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .article_blog .main_title {
@@ -1202,7 +1186,7 @@ text-decoration: none;
 	background-color: #a4c639;
 	color: white;
 	padding: 15px 25px;
-	border-radius: 10px;
+	border-radius: 50px;
 	display: inline-block;
 	font-size: 20px;
 }
@@ -1367,6 +1351,25 @@ text-decoration: none;
 }
 /*-------------Blog Area Ends-----------*/
 
+# Gallery
+--------------------------------------------------------------*/
+.gallery {
+  padding-bottom: 0;
+}
+
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
 
 /*-----------Blog Detail Area Starts-----------*/
 #blog_detail h3{
@@ -1513,12 +1516,12 @@ text-decoration: none;
   }
   
   .contact .php-email-form button[type="submit"] {
-	background: #ffb03b;
-	border: 0;
-	padding: 10px 24px;
-	color: #fff;
-	transition: 0.4s;
+	background-color: blue;
+	color: white;
+	padding: 15px 25px;
 	border-radius: 50px;
+	display: inline-block;
+	font-size: 20px;
   }
   
   .contact .php-email-form button[type="submit"]:hover {
